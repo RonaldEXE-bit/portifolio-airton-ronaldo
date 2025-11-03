@@ -6,6 +6,7 @@ export default function Home() {
     <h1>
       Airton Ronaldo Ronaldo
     </h1>
+    <h3>Next.js</h3>
   </div>
   );
 }
