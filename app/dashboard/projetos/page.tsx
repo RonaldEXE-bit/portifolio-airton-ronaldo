@@ -16,39 +16,40 @@ export default function Projetos() {
         {/* Exemplo de card de projeto */}
         <div className="project-card">
           <img
-            src="/assets/projetos/portfolio.png"
+            src="/assets/Play.png"
             alt="Portfólio Gamer"
             className="project-img"
           />
           <div className="project-info">
-            <h2 className="project-title">Portfólio Gamer</h2>
-            <p className="project-desc">Site pessoal com estilo gamer luxuoso, feito em Next.js + Tailwind.</p>
+            <h2 className="project-title">Portfólio</h2>
+            <p className="project-desc">Site pessoal, feito em Next.js + Tailwind.</p>
           </div>
         </div>
 
         <div className="project-card">
           <img
-            src="/assets/projetos/app-financas.png"
+            src="/assets/LogoStokkiLife.png"
             alt="App de Finanças"
             className="project-img"
           />
           <div className="project-info">
-            <h2 className="project-title">App de Finanças</h2>
-            <p className="project-desc">Aplicativo para controle financeiro com gráficos interativos.</p>
+            <h2 className="project-title">Stokki-Life</h2>
+            <p className="project-desc">Site de controle de estoque</p>
           </div>
         </div>
-
+        
         <div className="project-card">
+        <a href="" aria-label="LinkedIn" data-social="linkedin"></a>
           <img
-            src="/assets/projetos/jogo-rpg.png"
+            src="/assets/LunarFears.png"
             alt="Jogo RPG"
             className="project-img"
           />
           <div className="project-info">
-            <h2 className="project-title">Jogo RPG</h2>
-            <p className="project-desc">Protótipo de jogo estilo RPG com Unity e C#.</p>
+            <h2 className="project-title">Lunar-Fears</h2>
+            <p className="project-desc">Protótipo de jogo estilo RPG com GameMaker.</p>
           </div>
-        </div>
+        </div> 
 
         {/* 🔹 Para adicionar mais projetos, copie este bloco */}
 

@@ -31,7 +31,7 @@ export default function Curriculo() {
           <h3 className="section-title">Experiência</h3>
           <ul className="section-list">
             <li>Desenvolvedor Front-End – Projetos pessoais e acadêmicos</li>
-            <li>Criação de interfaces gamer com Next.js + Tailwind</li>
+            <li>Criação de interfaces com Next.js + Tailwind</li>
           </ul>
         </div>
 
@@ -48,7 +48,7 @@ export default function Curriculo() {
           <ul className="section-list">
             <li>React / Next.js</li>
             <li>Tailwind CSS</li>
-            <li>Design gamer luxuoso</li>
+            <li>Design gamer</li>
           </ul>
         </div>
 

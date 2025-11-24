@@ -32,7 +32,7 @@ export default function Dashboard() {
           <div className="col-span-1 row-span-2 flex items-center justify-center">
             <div className="photo-frame">
               <img
-                src="/assets/airton.jpg"
+                src="/assets/Airton.jpg"
                 alt="Foto de Airton"
                 className="w-32 h-32 rounded-full object-cover"
               />

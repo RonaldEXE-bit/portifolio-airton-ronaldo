@@ -16,20 +16,8 @@ export default function Certificados() {
         {/* Exemplo de card */}
         <div className="cert-card">
           <img
-            src="/assets/certificados/alura-frontend.png"
+            src="/assets/Airton Ronaldo Jimenez Mamani.png"
             alt="Imersão Front-End"
-            className="cert-img"
-          />
-          <div className="cert-info">
-            <h2 className="cert-title">Imersão Front-End</h2>
-            <p className="cert-desc">Alura – 2024</p>
-          </div>
-        </div>
-
-        <div className="cert-card">
-          <img
-            src="/assets/certificados/alura-ia.png"
-            alt="Imersão IA"
             className="cert-img"
           />
           <div className="cert-info">
@@ -40,7 +28,19 @@ export default function Certificados() {
 
         <div className="cert-card">
           <img
-            src="/assets/certificados/cisco-cyber.png"
+            src="/assets/_certificate_vilpandocesar8-gmail-com_3218a1f5-409e-4bfd-af8a-a2895bd3ad6f.png"
+            alt="Imersão IA"
+            className="cert-img"
+          />
+          <div className="cert-info">
+            <h2 className="cert-title">Gerenciamento de ameaças ciberneticas</h2>
+            <p className="cert-desc">Cisco – 2024</p>
+          </div>
+        </div>
+
+        <div className="cert-card">
+          <img
+            src="/assets/Introdução_Ciber.png"
             alt="Cibersegurança"
             className="cert-img"
           />
@@ -50,11 +50,47 @@ export default function Certificados() {
           </div>
         </div>
 
+        <div className="cert-card">
+          <img
+            src="/assets/Lean.png"
+            alt="Cibersegurança"
+            className="cert-img"
+          />
+          <div className="cert-info">
+            <h2 className="cert-title">Participação da Palestra</h2>
+            <p className="cert-desc">São Judas – 2025</p>
+          </div>
+        </div>
+
+
+        <div className="cert-card">
+          <img
+            src="/assets/Imersão_Dev.png"
+            alt="Cibersegurança"
+            className="cert-img"
+          />
+          <div className="cert-info">
+            <h2 className="cert-title">Introdução à Cibersegurança</h2>
+            <p className="cert-desc"> Alura – 2025</p>
+          </div>
+        </div>
+
+        <div className="cert-card">
+          <img
+            src="/assets/Hack.png"
+            alt="Cibersegurança"
+            className="cert-img"
+          />
+          <div className="cert-info">
+            <h2 className="cert-title">Ethical Hacker</h2>
+            <p className="cert-desc">Cisco Networking Academy – 2025</p>
+          </div>
+        </div>
         {/* 🔹 Para adicionar mais certificados, copie este bloco */}
 
 <div className="mt-6 flex justify-center">
         <a href="/dashboard" className="curriculo-button">
-          ⬅Voltar ao Dashboard
+          Voltar ao Dashboard
         </a>
       </div>
 
