@@ -22,8 +22,8 @@ export default function Curriculo() {
             className="curriculo-photo"
           />
           <div>
-            <h2 className="curriculo-name">Airton</h2>
-            <p className="curriculo-role">Desenvolvedor Front-End | Estilo Gamer</p>
+            <h2 className="curriculo-name">Airton Ronaldo Jimenez</h2>
+            <p className="curriculo-role">Desenvolvedor Front-End </p>
           </div>
         </div>
 
@@ -49,6 +49,15 @@ export default function Curriculo() {
             <li>React / Next.js</li>
             <li>Tailwind CSS</li>
             <li>Design gamer</li>
+          </ul>
+        </div>
+
+        <div className="curriculo-section">
+          <h3 className="section-title">Idiomas</h3>
+          <ul className="section-list">
+            <li>Espanhol: Nativo</li>
+            <li>Portugues: Intermediario</li>
+            <li>Ingles: Basico</li>
           </ul>
         </div>
 
