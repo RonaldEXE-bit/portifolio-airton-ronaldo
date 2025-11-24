@@ -17,7 +17,7 @@ export default function Curriculo() {
       <div className="curriculo-card relative z-10 max-w-4xl mx-auto">
         <div className="curriculo-header">
           <img
-            src="/assets/airton.jpg"
+            src="/assets/Airton.jpg"
             alt="Foto de Airton"
             className="curriculo-photo"
           />
