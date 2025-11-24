@@ -2,56 +2,63 @@
 import { useEffect, useState } from "react";
 import { Particles } from "@/components/particles";
 import "../globals.css";
+import Link from "next/link";
 
 export default function Dashboard() {
-  const [animate, setAnimate] = useState(false);
+  const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    setAnimate(true); // dispara animação ao montar
+    setMounted(true);
   }, []);
 
   return (
-    <div className="video-background">
-      {/* Vídeo de fundo */}
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        disablePictureInPicture
-        controls={false}
-        className={animate ? "fade-opacity" : ""}
-      >
-        <source src="/assets/background.mp4" type="video/mp4" />
-      </video>
-
-      {/* Conteúdo central com fade */}
-      <div className={`content-overlay ${animate ? "fade-opacity" : ""}`}>
-        <header className="mb-8 text-center">
-          <h1 className="text-4xl font-bold">Airton – Portfólio</h1>
-          <p className="text-lg">Interface gamer em construção…</p>
-        </header>
-
-        <main className="flex flex-col items-center gap-4">
-          <button className="play-button">Projetos</button>
-          <button className="play-button">Sobre</button>
-          <button className="play-button">Contato</button>
-        </main>
-
-        <footer className="mt-12 text-sm opacity-80 text-center">
-          <p>© 2025 Airton. Todos os direitos reservados.</p>
-          <p>Feito com Next.js + Tailwind + animações gamer 🎮</p>
-        </footer>
+    <>
+      <div className={`video-background ${mounted ? "fade-in-video" : ""}`}>
+        <video autoPlay muted loop playsInline disablePictureInPicture>
+          <source src="/assets/background.mp4" type="video/mp4" />
+        </video>
       </div>
 
-      {/* Partículas por cima */}
-      <Particles
-        quantity={300}
-        size={2}
-        color="#27c39f"
-        staticity={50}
-        ease={50}
-      />
-    </div>
+      <Particles quantity={300} size={2} color="#27c39f" staticity={50} ease={50} />
+
+      <div className={`content-overlay ${mounted ? "fade-in" : ""}`}>
+        <header className="mb-10 text-center">
+          <h1 className="text-4xl font-bold tracking-wide">Airton – Portfólio</h1>
+          <p className="text-lg opacity-70">Interface gamer com estilo profissional e luxuoso</p>
+        </header>
+
+        <div className="grid grid-cols-3 grid-rows-2 gap-6 max-w-3xl w-full mx-auto mb-10">
+          {/* Foto com borda neon */}
+          <div className="col-span-1 row-span-2 flex items-center justify-center">
+            <div className="photo-frame">
+              <img
+                src="/assets/airton.jpg"
+                alt="Foto de Airton"
+                className="w-32 h-32 rounded-full object-cover"
+              />
+            </div>
+          </div>
+
+          {/* Botões com ícones */}
+          <Link href="/dashboard/aprendizado" className="card-button">
+            🧠 Aprendizado
+          </Link>
+          <Link href="/dashboard/certificados" className="card-button">
+            🎓 Certificados
+          </Link>
+          <Link href="/dashboard/projetos" className="card-button">
+            🛠️ Projetos
+          </Link>
+          <Link href="/dashboard/curriculo" className="card-button">
+            📄 Ver Currículo
+          </Link>
+        </div>
+
+        <footer className="mt-12 text-sm text-center opacity-60">
+          <p>© 2025 Airton. Todos os direitos reservados.</p>
+          <p>Next.js🎮</p>
+        </footer>
+      </div>
+    </>
   );
 }
