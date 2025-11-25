@@ -41,16 +41,16 @@ export default function Dashboard() {
 
           {/* Botões com ícones */}
           <Link href="/dashboard/aprendizado" className="card-button">
-            🧠 Aprendizado
+             Aprendizado
           </Link>
           <Link href="/dashboard/certificados" className="card-button">
-            🎓 Certificados
+             Certificados
           </Link>
           <Link href="/dashboard/projetos" className="card-button">
-            🛠️ Projetos
+             Projetos
           </Link>
           <Link href="/dashboard/curriculo" className="card-button">
-            📄 Ver Currículo
+             Ver Currículo
           </Link>
         </div>
 
