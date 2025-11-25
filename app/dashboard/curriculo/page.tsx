@@ -62,10 +62,11 @@ export default function Curriculo() {
         </div>
 
         {/* Ícones Sociais */}
+        <h3 className="section-title">Vamos Falar?</h3>
         <div className="social-icons mt-8 flex justify-center">
           <ul className="example-2">
             <li className="icon-content">
-              <a href="https://linkedin.com/" aria-label="LinkedIn" data-social="linkedin">
+              <a href="https://www.linkedin.com/in/airton-ronaldo-359370325/" aria-label="LinkedIn" data-social="linkedin">
                 <div className="filled"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                   fill="currentColor" className="bi bi-linkedin" viewBox="0 0 16 16">
@@ -86,7 +87,7 @@ export default function Curriculo() {
             </li>
 
             <li className="icon-content">
-              <a href="https://github.com/" aria-label="GitHub" data-social="github">
+              <a href="https://github.com/RonaldEXE-bit" aria-label="GitHub" data-social="github">
                 <div className="filled"></div>
                 <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
                   fill="currentColor" className="bi bi-github" viewBox="0 0 16 16">
