@@ -24,7 +24,7 @@ export default function Dashboard() {
       <div className={`content-overlay ${mounted ? "fade-in" : ""}`}>
         <header className="mb-10 text-center">
           <h1 className="text-4xl font-bold tracking-wide">Airton Ronaldo Jimenez</h1>
-          <p className="text-lg opacity-70">Interface Gamer</p>
+          <p className="text-lg opacity-70">Seja Bem-vindo</p>
         </header>
 
         <div className="grid grid-cols-3 grid-rows-2 gap-6 max-w-3xl w-full mx-auto mb-10">
